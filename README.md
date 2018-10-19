@@ -11,8 +11,17 @@
 组件优化主要是针对上传至七牛的图片
 
 ### 组件使用
-1、安装插件 npm install adaptive-react-image --save-dev
-2、<ImageLoaderV2 images={['https://store-g1.seewo.com/5b6b402c4d1c14dc687fc8aaf5d0be063d4ed80f6b1ec7076d56671864c8e4ed14887662375567']} />
+ 1、安装插件 
+
+ ```
+npm install adaptive-react-image --save-dev
+```
+
+ 2、在组件中引入
+ ```
+<ImageLoaderV2 images={['https://store-g1.seewo.com/5b6b402c4d1c14dc687fc8aaf5d0be063d4ed80f6b1ec7076d56671864c8e4ed14887662375567']} />
+```
+
 
 
 ### 参数说明
