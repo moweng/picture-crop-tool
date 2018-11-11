@@ -32,7 +32,7 @@ class PictureCut {
     console.log('x:', x);
     console.log('y:', y);
     console.log('radius:', radius);
-    ctx.arc(x, y , radius, 0, 2 * Math.P); //画出圆
+    ctx.arc(x, y, radius, 0, 2 * Math.PI); //画出圆
     ctx.closePath();
     ctx.clip(); //裁剪上面的圆形
   }
@@ -94,6 +94,7 @@ class PictureCut {
     const centerX = this.options.centerX;
     const centerY = this.options.centerY;
     const radius = this.options.radius;
+    console.log('radius:', radius);
 
     const originWidth = this.options.originWidth;
     const originHeight = this.options.originHeight;
